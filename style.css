@@ -1,0 +1,186 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+body {
+    background-color: #E5E7EB;
+    /* Muted soft gray-blue for reduced eye strain */
+    color: #1F2937;
+    /* Dark navy for good readability */
+}
+
+
+/* Header */
+header {
+    background: #1F1F1F;
+    /* Trust-building charcoal */
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo {
+    width: 60px;
+    color: whitesmoke;
+    font-size: 50px;
+    padding-left: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #EAB308;
+    /* Golden trust accent */
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.anchor:hover {
+    color: #FFD700;
+    /* Subtle golden highlight */
+}
+
+/* Main Sections */
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+}
+
+.left-sec .inner {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.purple {
+    color: #7E22CE;
+    /* Accent for creativity */
+}
+
+#element {
+    font-weight: bold;
+    color: #EAB308;
+    /* Golden tone */
+}
+
+.right-sec img {
+    width: 300px;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px palevioletred;
+
+}
+
+/* Experience Section */
+.second-section {
+    text-align: center;
+    padding: 60px 50px;
+}
+
+.head {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1F1F1F;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.vertical {
+    width: 250px;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.image-top {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.vertical-text {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #374151;
+}
+
+.horizontal-line {
+    height: 2px;
+    background: #EAB308;
+    margin: 10px 0;
+}
+
+.vertical-des {
+    font-size: 0.9rem;
+    color: #6B7280;
+}
+
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding: 10px 0;
+}
